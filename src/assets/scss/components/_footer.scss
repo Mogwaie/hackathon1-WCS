@@ -1,0 +1,41 @@
+@use "../variables" as *;
+
+.footer-container {
+  border-top: solid 2px $app-corporate-color2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: baseline;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin-right: 2rem;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  a {
+    color: $app-corporate-color2;
+    text-decoration: none;
+    :hover {
+      color: $app-supporting-color;
+    }
+  }
+
+  .footer-right {
+    img {
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+  }
+}

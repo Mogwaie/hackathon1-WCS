@@ -1,0 +1,13 @@
+@use '../mixins/mixins' as *;
+
+.title_legal {
+    text-align: center;
+    font-family: "Italianno";
+    font-size: 4rem;
+}
+
+.text_legal {
+    text-align:center;
+    margin: 0 auto;
+    padding: 2rem;
+}
